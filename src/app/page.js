@@ -1,14 +1,15 @@
+
 import Camera from "./components/Camera";
-import Foooter from "./components/Foooter";
+import Footer from "./components/Footer";
 import Navheader from "./components/Navheader";
 
 export default function Home() {
   return (
-    <main className="bg-gray-950 min-h-screen py-8">
-      <div className="max-w-2xl mx-auto space-y-8 px-4">
+    <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+      <div className="max-w-3xl mx-auto px-4 py-12 space-y-12">
         <Navheader />
         <Camera />
-        <Foooter />
+        <Footer />
       </div>
     </main>
   );
